@@ -1,12 +1,9 @@
 # Vocabulity code sample
 
-This repository is used for expose examples of Vocabulity source code.
+This repository showcases selected examples of the Vocabulity source code.
 Vocabulity is a vocabulary learning app, available on [Apple Store](https://apps.apple.com/fr/app/vocabulity-vocabulaire-anglais/id6468937557) and [Play Store](https://play.google.com/store/apps/details?id=com.edwbr.vocabulity&hl=en&gl=US).
 
-The app is builded on Expo framework <https://github.com/expo/expo>.
-For the auth / back-end part I use Supabase sdk for JavaScript <https://github.com/supabase/supabase-js>.
-
-The global rounting working with file-based routing provided by expo-router <https://docs.expo.dev/router/basics/core-concepts/>.
+The application is built on the Expo framework (React Native) and uses the Supabase SDK for authentication and backend services. Global routing is managed via Expo Router (file-based routing).
 
 ## Architecture
 **Logic & Gameplay (/helpers):** Pure TypeScript logic for game mechanics. Includes unit tests (Jest) to ensure algorithm reliability.
@@ -19,6 +16,6 @@ The global rounting working with file-based routing provided by expo-router <htt
 
 # Video exemple
 
-<video src="https://raw.githubusercontent.com/P4tt4te/vocabulity-code-sample/main/video.mp4" width="600" controls>
-  Votre navigateur ne supporte pas la lecture de vidéos.
+<video src="https://raw.githubusercontent.com/P4tt4te/vocabulity-code-sample/main/video.mp4" width="300" controls>
+  Video not supported by your browser.
 </video>
