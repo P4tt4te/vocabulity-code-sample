@@ -18,11 +18,8 @@ describe("getMemoryData", () => {
 
     memoryData.forEach((_) => {
       const val = _.y + _.x * 5;
-      console.log("val : ", val);
       responses[val - 1] = true;
     });
-
-    console.log("responses : ", responses);
 
     expect(responses.includes(false)).toBe(false);
   });

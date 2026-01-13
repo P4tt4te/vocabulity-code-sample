@@ -16,3 +16,9 @@ The global rounting working with file-based routing provided by expo-router <htt
 **Infrastructure & Bridge (/server & /hooks):** Implementation of the communication layer between the mobile client and Supabase Edge Functions.
 
 **Observability (/utils):** Integration of Sentry for performance monitoring and crash reporting in production.
+
+# Video exemple
+
+<video src="https://raw.githubusercontent.com/P4tt4te/vocabulity-code-sample/main/video.mp4" width="600" controls>
+  Votre navigateur ne supporte pas la lecture de vidéos.
+</video>

@@ -27,8 +27,6 @@ export function getMemoryDataFromNewWords(newWords: DailyData[]) {
           ? shufflePositions[tileCounter] - midPositions
           : shufflePositions[tileCounter];
 
-      console.log("counter : ", tileCounter, " | x : ", x, " | y : ", y);
-
       data.push({
         word: newWord[strLang],
         wordIndex: newWord.index,
@@ -48,8 +46,6 @@ export function getMemoryDataFromNewWords(newWords: DailyData[]) {
     if (a.y > b.y) return 1;
     return 0;
   });
-
-  console.log("getMemoryDataFromNewWords : ", data);
 
   return data;
 }
