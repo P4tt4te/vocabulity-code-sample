@@ -16,6 +16,4 @@ The application is built on the Expo framework (React Native) and uses the Supab
 
 # Video exemple
 
-<video src="https://raw.githubusercontent.com/P4tt4te/vocabulity-code-sample/main/video.mp4" width="300" controls>
-  Video not supported by your browser.
-</video>
+https://github.com/user-attachments/assets/5794e737-1253-46f5-8f74-d80953aac530
